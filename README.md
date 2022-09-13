@@ -1,8 +1,7 @@
 # python_test_project
 Python test project for SoftVision
 
-Part 1.
-- Create FastAPI base project
+Part 1. Create FastAPI base project:
 - Create User model (id, name, age(min=0, max=100), email)
 - Create Game model (id, name)
 Create Endpoints:
