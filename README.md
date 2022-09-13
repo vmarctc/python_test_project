@@ -1,14 +1,16 @@
 # python_test_project
 Python test project for SoftVision
 
-Part 1. Create FastAPI base project:
-- Create User model (id, name, age(min=0, max=100), email)
-- Create Game model (id, name)
-Create Endpoints:
-- Get games (get list of all games and users who connected to this games)
-- Get me (get info about current user and info about all connected games)
-- Connect to game. When user send this request. Need to create one obj like User - Game.
+Part 1. Created FastAPI base project:
+- Created User model (id, name, age, email)
+- Created Game model (id, name)
+Created Endpoints:
+- /games (getting list of all games and users who connected to this games)
+- /users (getting list of all users and info about games for each user)
+- /user/{user_id} (getting info about current user and info about all connected games)
+- /user/{user_id}/game/{game_id} (Connect user go game)
 
 Part 2 (Advanced).
-- Use SQLAlchemy for store your models
-- Use docker for run your code
+- Used SQLAlchemy for store my models
+
+It's easy to test using the FastAPI Swagger UI.
